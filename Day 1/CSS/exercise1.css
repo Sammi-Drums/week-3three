@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navHero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/PowerPointGreen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* The Navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    /* box-shadow: 0 0 3px black; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-menu ul li{
+    margin: 0 15px;
+}
+.nav-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-menu ul li:last-child a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.nav-menu ul li:last-child a:hover{
+    background-color: black;
+    color: white;
+}
+/* The Hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero p{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.hero-btn button{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.hero-btn button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.com-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+.com-btn button{
+    border: 0;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+.com-btn>button:hover{
+    background-color: black;
+    color: white;
+}
+.com-btn:hover{
+    background-color: black;
+    color: white;
+}
+.com-btn img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/Icons/KidsSite1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
