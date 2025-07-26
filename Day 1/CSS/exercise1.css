@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: white;
     /* box-shadow: 0 0 3px black; */
 }
 .logo{
@@ -32,12 +32,12 @@ nav{
     margin: 0 15px;
 }
 .nav-menu ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .nav-menu ul li:last-child a{
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     border-radius: 8px;
     padding: 5px 10px;
 }
@@ -115,5 +115,45 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* The about section */
+.about-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.about-cards{
+    width: 33.3%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.about-img img{
+    width: 30%;
+    height: 100px;
+    border-radius: 50%;
+}
+.card1{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

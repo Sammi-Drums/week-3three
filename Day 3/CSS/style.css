@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Images/backgroundBlue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-menu ul li{
+    margin: 0 15px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu ul li:last-child a{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+/* The Hero Section */
+.about-hero{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.about-title h1{
+    font-size: 50px;
+    color: white;
+}
+.about-para p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* The Card section */
+.card-sec{
+    display: flex;
+    margin: 0 10%;
+}
+.card-container{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 25%;
+    border-radius: 15px;
+}
+.card-img{
+
+}
+.card-title h1{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.card-para{
+    color: blue;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.work-sec{
+    display: flex;
+    margin: 5% 8%;
+}
+.work-img img{
+    width: 90%;
+    border-radius: 50%;
+}
+.work-text{
+    margin: 3%;
+    width: 90%;
+}
+.work-text-title h1{
+    color: white;
+}
+.work-text-para p{
+    font-size: 18px;
+    margin: 15px 0;
+    color: white;
+}
+.work-text-radio form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.work-text-radio form .form-field{
+    display: flex;
+    align-items: center;
+}
+
+/* The rating section */
+.rating-cards{
+    padding: 3% 15%;
+    background-color: rgba(6, 6, 151, 0.486);
+}
+.rating-container{
+    display: flex;
+}
+.rate1{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.767);
+}
+.rate-name h1{
+    color: white;
+}
+.rate-para p{
+    color: white;
+}
+
+
+
+
+
+
+
